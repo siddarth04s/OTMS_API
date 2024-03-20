@@ -15,7 +15,7 @@ const UpdateApi = async () => {
     const updatedBy = document.getElementById('updatedBy').value;
   
     try {
-      const response = await fetch(`http://localhost:8080/api/task/update/${userId}`, {
+      const response = await fetch(`http://localhost:8080/otms/api/task/update/${userId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
