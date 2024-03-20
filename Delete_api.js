@@ -1,6 +1,6 @@
 const Delete_api = async (userId) => {
     try {
-      const response = await fetch(`http://localhost:8080/api/task/delete/52?${userId}`, {
+      const response = await fetch(`http://localhost:8080/otms/api/task/delete/${userId}`, {
         method: 'DELETE',
       });
   
